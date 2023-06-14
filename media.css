@@ -1,0 +1,390 @@
+@media (max-width: 1350px) {
+  @supports (background-image: url('assets/img/banner-bg.webp')) {
+    .background {
+      background-image: url(assets/img/banner-bg.webp);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+    }
+  }
+
+  @supports not (background-image: url('assets/img/banner-bg.webp')) {
+    .background {
+      background-image: url(assets/img/banner-bg.webp);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+    }
+  }
+
+  .container {
+    padding: 100px;
+  }
+
+  .container__text {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin: 0 30px;
+    padding: 0px;
+  }
+
+  .text__description {
+    font-size: 20px;
+  }
+
+  .text__title {
+    font-size: 50px;
+  }
+
+  #main {
+    height: max-content;
+    padding: 200px 0 0 0;
+  }
+}
+
+@media (max-width: 1300px) {
+  #main {
+    height: max-content;
+    padding: 40px 0;
+  }
+
+  .container {
+    width: 100%;
+    display: flex;
+    padding: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .container__image {
+    display: flex;
+    padding: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container__image img {
+    margin: 0px;
+    width: 300px;
+  }
+
+  .container__text {
+    padding: 20px;
+    padding-top: 100px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .container__text {
+    width: 100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .text__title {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .text__description {
+    padding-top: 20px;
+    font-size: 15px;
+  }
+
+  .overlay__content a {
+    font-size: 20px;
+  }
+
+  .overlay .close {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+
+  .container__image {
+    margin: auto;
+  }
+
+  .title {
+    font-size: 30px;
+    margin: 30px 20px;
+  }
+
+  #about {
+    height: max-content;
+  }
+
+  .about__card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    border-radius: 40px;
+  }
+
+  .card__content {
+    width: 100%;
+  }
+
+  .content__image img {
+    display: flex;
+    width: 60%;
+    margin: auto;
+  }
+
+  .content__title {
+    font-size: 30px;
+  }
+
+  .contact__card{
+    display: none;
+  }
+
+  #contact{
+    padding: 0;
+  }
+
+  .phone-and-tablet-contact{
+    display: inline;
+    background-image: url(assets/img/phone-contact.svg);
+    background-repeat: no-repeat;
+    width: 70%;
+    background-position: center;
+    height: 800px;
+    margin: 50px 0 0 0 ;
+  }
+
+  .phone-and-tablet-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }   
+  label{
+    color: white;
+  }
+
+  input, textarea{
+    width: 100%;
+    margin: 10px 0;
+  }
+  button {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1301px) and (max-width:1600px){
+  .card__image{
+    display: none;
+  }
+  .text__title{
+    font-size: 60px;
+  }
+  
+  .image-wrapper{
+    width: 70%;
+    background-image: url(assets/img/contact-us-img.svg);
+    background-size: cover;
+  }
+
+  .title{
+    font-size: 40px;
+  }
+  .phone-and-tablet-contact{
+    display: none;
+  }
+  .contact__card {
+    background-color: #fff;
+    width: 65%;
+    display: flex;
+    height: 700px;
+    margin: auto;
+  }
+  
+  .contact__card .card__content {
+    width: 55%;
+  }
+
+  
+
+  label {
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+    color: #1b1b1b;
+    display: block;
+    width: 100%;
+    font-weight: 500;
+    margin: 20px 0 -10px 0;
+  }
+  
+  input {
+    font-family: "Inter", sans-serif;
+    padding: 10px;
+    height: 50px;
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+    margin-top: unset;
+  }
+
+  
+  
+  textarea {
+    font-family: "Inter", sans-serif;
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    resize: none;
+    margin-right: 110px;
+  }
+}
+
+@media (max-width: 500px) {
+  #Main {
+    height: auto;
+  }
+
+  .container__image img {
+    width: 100%;
+  }
+
+  #about {
+    height: fit-content;
+    padding: 40px 0;
+  }
+
+  .content__paragraph {
+    padding: 10px 0;
+    width: 100%;
+    margin: 0;
+    font-size: 15px;
+  }
+
+  .content__image {
+    padding: 20px 0;
+  }
+
+  
+  .phone-and-tablet-contact{
+    display: inline;
+    background-image: url(assets/img/phone-contact.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    height: 800px;
+    margin: 50px 0 0 0 ;
+  }
+
+  .phone-and-tablet-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }   
+  label{
+    color: white;
+  }
+
+  input, textarea{
+    width: 100%;
+    margin: 10px 0;
+  }
+  button {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+  #about {
+    height: max-content;
+  }
+
+  .container__image {
+    margin: auto;
+  }
+
+  .title {
+    font-size: 40px;
+    padding: 150px 20px 50px 20px;
+  }
+
+  .about__card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    border-radius: 40px;
+  }
+
+  .card__content {
+    width: 80%;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
+  }
+
+  .overlay .close {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .nav__links,
+  .cta {
+    display: none;
+  }
+
+  .menu {
+    display: initial;
+  }
+
+  .wrapper {
+    width: 80%;
+  }
+  .title {
+    font-size: 30px;
+    padding: 100px 20px 30px 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer-menu ul {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .footer-bottom {
+    background-color: #000;
+    padding-bottom: 20px;
+  }
+  .footer-menu {
+    display: none;
+  }
+
+  .footer-content {
+    padding: 20px;
+  }
+  .footer-bottom p {
+    text-align: center;
+    float: unset;
+  }
+}
